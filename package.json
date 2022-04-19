@@ -27,5 +27,6 @@
   },
   "homepage": "https://github.com/FaridSafi/react-native-gifted-listview#readme",
   "dependencies": {
+    "deprecated-react-native-listview": "^0.0.7"
   }
 }

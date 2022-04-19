@@ -3,7 +3,6 @@
 var React = require('react');
 
 var {
-  ListView,
   Platform,
   TouchableHighlight,
   View,
@@ -11,7 +10,7 @@ var {
   RefreshControl,
   ActivityIndicator,
 } = require('react-native');
-
+import { ListView } from 'deprecated-react-native-listview';
 
 // small helper function which merged two objects into one
 function MergeRowsWithHeaders(obj1, obj2) {
